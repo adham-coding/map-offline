@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="css/leaflet.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>Google Maps (Offline)</title>
+  </head>
+  <body>
+    <div class="result">
+      <label>
+        <span>Click result: </span>
+        <input class="result-item" id="click" readonly />
+      </label>
+      <label>
+        <span>Drag result: </span>
+        <input class="result-item" id="drag" readonly />
+      </label>
+    </div>
+
+    <div id="map"></div>
+
+    <script src="js/leaflet.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
